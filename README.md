@@ -1,28 +1,8 @@
-# 📌 Laporan Kemajuan Kelompok 1 - OOTDiy
-
-## 👥 Anggota Kelompok & Role
-
-
-| Nama                        | Role     |
-|-----------------------------|----------|
-| Haifan Ghani Raihan Santos | Backend  |
-| Lusi Sugiarti Lestari      | Frontend |
-| Fina Nuraini               | Frontend |
-| Nida Shofwatunnisa         | UI/UX    |
-| Anisa Pebriyani            | UI/UX    |
-
-
----
-
-## 🔗 Link Terkait Proyek
-
-| Keterangan               | Link                                                                 |
-|--------------------------|----------------------------------------------------------------------|
-| Repository GitHub        | [OOTDiy GitHub](https://github.com/OOTDiy)                           |
-| Figma (UI/UX Design)     | [Figma](https://www.figma.com/team_invite/redeem/GvLs9yQ1Jt9OsvFEHxdogo) |
-| Sprint (Trello)          | [Sprint Board](https://trello.com/b/GE63mu2t/ootdiy-sprint)          |
-| FigJam (Brainstorming)   | [Figma Jam](https://www.figma.com/board/d4vkpSXKODoVc6dfxBYs8z/OOTDiy-FigJam?node-id=0-1&t=ra0XbOnqbg1WV7aF-1) |
-| ERD + Flow Chart         | [Eraser Diagram](https://app.eraser.io/workspace/tbdgCbedjqvY00iGKB34?origin=share) |
-
----
-
+| Milestone                                                  | Minggu ke- | Luaran                                                                                     | Capaian                                                                                  |
+|-----------------------------------------------------------|------------|--------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| **Proposal Project** (Fokus: Pemilihan Teknologi Multi Platform) | 1 - 2      | - Dokumen Proposal dengan justifikasi pemilihan teknologi (React Native, Flutter, dll.). | - Penentuan ide dan topik proyek yang relevan dengan multi platform.  <br> - Analisis perbandingan teknologi multi platform.  <br> - Pemilihan teknologi yang paling sesuai dengan kebutuhan proyek. |
+| **Perancangan Aplikasi** (Fokus: Desain Responsif dan Adaptif) | 3 - 4      | - Desain UI/UX yang responsif dan adaptif.  <br> - Diagram alur program lintas platform.  <br> - Database design (jika ada) yang kompatibel. | - Desain tampilan yang konsisten di berbagai perangkat.  <br> - Perancangan alur logika yang mempertimbangkan perbedaan platform.  <br> - Perancangan struktur database yang efisien. |
+| **Pengembangan Aplikasi (Front-End)** (Fokus: Komponen UI Multi Platform) | 5 - 8      | - Implementasi UI menggunakan komponen UI lintas platform.  <br> - Penulisan unit test untuk komponen UI.  <br> - Integrasi API (jika ada) yang mendukung multi platform. | - Pembuatan tampilan aplikasi menggunakan React Native, Flutter, atau teknologi sejenis.  <br> - Melakukan pengujian unit terhadap komponen UI.  <br> - Penghubungan aplikasi dengan API menggunakan format data yang umum (JSON, XML). |
+| **Pengembangan Aplikasi (Back-End)** (Fokus: Layanan Web Multi Platform) | 9 - 12     | - Implementasi logika program menggunakan Node.js, Python (Flask/Django), atau teknologi sejenis.  <br> - Penulisan unit test untuk fungsi dan API.  <br> - Pengembangan database (jika ada) menggunakan MySQL, PostgreSQL, MongoDB, atau teknologi sejenis.  <br> - Pembuatan API yang mendukung multi platform. | - Pembuatan fungsi-fungsi program yang efisien dan dapat diakses dari berbagai platform.  <br> - Melakukan pengujian unit terhadap fungsi dan API.  <br> - Pembuatan dan koneksi database yang handal.  <br> - Pembuatan API dengan format data yang umum. |
+| **Pengujian dan Perbaikan** (Fokus: Pengujian Lintas Platform) | 13 - 14    | - Laporan pengujian di berbagai platform (web, Android, iOS).  <br> - Aplikasi yang sudah diperbaiki berdasarkan hasil pengujian. | - Melakukan pengujian unit dan integrasi di berbagai platform.  <br> - Memperbaiki bug dan error yang spesifik untuk setiap platform. |
+| **Penyelesaian dan Dokumentasi** (Fokus: Deployment Multi Platform) | 15 - 16    | - Aplikasi final yang dapat di-deploy di berbagai platform.  <br> - Laporan akhir yang mencakup proses pengembangan multi platform.  <br> - Presentasi yang menjelaskan tantangan dan solusi dalam pengembangan multi platform. | - Finalisasi aplikasi dan deployment ke App Store, Play Store, atau web.  <br> - Penyusunan laporan akhir yang mendokumentasikan proses pengembangan multi platform.  <br> - Persiapan presentasi yang menarik dan informatif. |
