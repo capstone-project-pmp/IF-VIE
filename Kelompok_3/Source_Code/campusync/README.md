@@ -80,6 +80,7 @@ Aplikasi dating sederhana Campusync berbasis Flutter untuk mahasiswa di seluruh 
 
 ```bash
 
-cd mahasiswa-dating-app
+git clone https://github.com/campusyn/IF-VIE.git
+cd Kelompok_3/Source_Code/campusync
 flutter pub get
 flutter run
