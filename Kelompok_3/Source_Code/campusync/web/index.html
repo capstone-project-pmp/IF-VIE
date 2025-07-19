@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Campusyc">
+  <!-- cropperjs -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+<meta name="permissions-policy" content="camera=(), microphone=()">
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="PostIt">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>PostIt</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- ✅ Google Sign-In Client ID (WAJIB untuk login Google Web) -->
+  <meta name="google-signin-client_id" content="340072621818-qnqab7u1t995tif42tp7roaar8nasepo.apps.googleusercontent.com">
+
+  <!-- ✅ Firebase JS SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-analytics.js"></script>
+
+  <!-- ✅ Firebase Configuration -->
+  <script>
+    const firebaseConfig = {
+         apiKey: 'AIzaSyDLBMbs6iI-lxvERNOS8mSqlLYXRNwBNJ4',
+         appId: '1:340072621818:web:6071e3b6428e93e6ab4b43',
+         messagingSenderId: '340072621818',
+         projectId: 'campu-syc',
+         authDomain: 'campu-syc.firebaseapp.com',
+         storageBucket: 'campu-syc.firebasestorage.app',
+         measurementId: 'G-QH6CZX0T8T',
+    };
+
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+
+  <!-- Flutter initialization -->
+  <script>
+    var serviceWorkerVersion = null;
+  </script>
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        }
+      }).then(function(engineInitializer) {
+        return engineInitializer.initializeEngine();
+      }).then(function(appRunner) {
+        return appRunner.runApp();
+      });
+    });
+  </script>
+</body>
+</html>
