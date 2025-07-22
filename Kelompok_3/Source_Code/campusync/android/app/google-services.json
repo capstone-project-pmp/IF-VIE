@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "340072621818",
+    "project_id": "campu-syc",
+    "storage_bucket": "campu-syc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:340072621818:android:a55d7a3217e3f8d1ab4b43",
+        "android_client_info": {
+          "package_name": "com.example.campusync"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOzB-MGPN4h7SWBViyFhAB6p3paMhSzLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
