@@ -1,32 +1,33 @@
-# TravelAce
+# 🌍 TravelAce ✈️
+Aplikasi Agen Perjalanan Daring (Online Travel Agency) berbasis Flutter
 
-**TravelAce** is an online travel agency app designed to simplify the travel booking experience. Built using Flutter (Dart) with an optional Firebase backend, this app allows users to book flights and hotels, explore tour packages, and get visa assistance—all through a smooth and user-friendly interface.
+**TravelAce** adalah aplikasi mobile yang dirancang untuk menyederhanakan proses pemesanan perjalanan Anda. Dibangun menggunakan Flutter dan Dart, serta didukung secara opsional oleh Firebase, aplikasi ini menawarkan berbagai layanan dalam satu platform yang terintegrasi dan user-friendly.
 
-## Features
 
-- **Flight Booking**: Search, compare, and book flights effortlessly.
-- **Hotel Reservations**: Find and book top-rated hotels with ease.
-- **Tour Package Exploration**: Explore curated travel packages for every destination.
-- **Visa Assistance**: Get guidance and apply for travel visas hassle-free.
-- **Firebase Authentication**: Secure user login and management (optional).
-- **Google Maps Integration**: Locate flights, hotels, and travel spots (optional).
+## ✨ Fitur Utama
+   🛫 Pemesanan Tiket Pesawat
+   🏨 Pemesanan Hotel
+   🧳 Paket Wisata Eksklusif
+   🛂 Bantuan Pengurusan Visa
+   🔍 Antarmuka pencarian yang intuitif
+   💾 Backend Firebase opsional untuk autentikasi dan      penyimpanan data
 
-## Technologies Used
 
-- **Flutter**: Framework for building the app.
-- **Dart**: Programming language used for app development.
-- **Firebase**: Optional backend for authentication and database management.
-- **Google Maps API**: Optional integration for location services.
 
-## Figma
+## 🛠️ Teknologi yang Digunakan
+   - Flutter (UI toolkit dari Google)
 
-[Figma Project Preview](https://embed.figma.com/design/vKmWTXL8dyhqUzZB1pWY6H/TravelAce-APP?node-id=0-1&embed-host=share)
+   - Dart (bahasa pemrograman)
 
+   - Firebase (opsional: autentikasi, database, dan penyimpanan cloud)
 
 
 ## Installation
 
-### 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/0xZahidp/TravelAce.git
+   git clone https://github.com/username/travelace.git
+   cd travelace
+   flutter pub get
+   flutter run
    ```
